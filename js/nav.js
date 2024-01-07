@@ -8,10 +8,6 @@ main_nav.addEventListener("click", (event) => {
   if (tag_name === "I") {
     if (class_name == "fa-solid fa-calendar-days") {
       importHTML(body, "./calendar.html");
-    } else if (class_name === "fa-solid fa-circle-plus") {
-      improtHTML(body, "./add.html");
-    } else if (class_name === "fa-solid fa-bell") {
-      importHTML(body, "./bell.html");
     }
   }
 });
